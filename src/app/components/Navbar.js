@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-white font-bold text-xl">
-              Your Name
+              Atharva Kinage
             </Link>
           </div>
           <div className="hidden md:block">
