@@ -1,35 +1,78 @@
 import Image from 'next/image';
 
 export default function Artworks() {
-  const artworks = [
-    { id: 1, title: 'Artwork 1', description: 'Elephant', image: '/elephant.jpg' },
-    { id: 2, title: 'Artwork 2', description: 'Horse', image: '/horse.png' },
-    { id: 3, title: 'Artwork 3', description: 'Snake', image: '/snake.jpg' },
-  ];
-
   return (
     <div className="container mx-auto px-4 py-6">
-      <h1 className="text-2xl font-bold text-center mb-8">Sketching is my passion✏️, here are some of my top sketches !!</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {artworks.map((artwork) => (
-          <div key={artwork.id} className="border-4 border-gray-300 rounded-md overflow-hidden">
-            {/* Image */}
-            <div className="relative w-full h-96">
-              <Image 
-                src={artwork.image} 
-                alt={artwork.title} 
-                layout="fill" 
-                objectFit="cover" 
-              />
-            </div>
+  <h1 className="text-2xl font-extrabold text-center mb-8 text-gray-600 dark:text-white leading-tight fade-in">
+    Sketching is my passion{" "}
+    <span className="text-2xl">✏️</span>, here are some of my sketches!!
+  </h1>
 
-            {/* Description */}
-            <div className="p-4">
-              <h2 className="text-xl font-semibold mb-2">{artwork.title}</h2>
-              <p className="text-gray-600">{artwork.description}</p>
-            </div>
-          </div>
-        ))}
+      {/* Artwork 1 */}
+      <div className="flex items-center space-x-4 border-4 border-gray-300 p-4 rounded-md mb-6">
+        {/* Image */}
+        <div className="w-full h-auto relative">
+          <Image 
+            src="/elephant.jpg" 
+            alt="Elephant" 
+            layout="responsive" 
+            width={1200}  // Set width according to your image's aspect ratio
+            height={800}  // Set height according to your image's aspect ratio
+            objectFit="contain" // This ensures the full image is shown
+            className="rounded-md"
+          />
+        </div>
+
+        {/* Description */}
+        <div className="w-full md:w-1/2">
+          <h2 className="text-xl font-semibold mb-2">Elephant</h2>
+          <p className="text-gray-600">In nature's realm, the gentle giant strides, Majestic grace, soulful eyes, serenity abides.</p>
+        </div>
+      </div>
+
+      {/* Artwork 2 */}
+      <div className="flex items-center space-x-4 border-4 border-gray-300 p-4 rounded-md mb-6">
+        {/* Image */}
+        <div className="w-full h-auto relative">
+          <Image 
+            src="/horse.png" 
+            alt="Horse" 
+            layout="responsive" 
+            width={1200}  // Adjust according to image size
+            height={800}  // Adjust according to image size
+            objectFit="contain" // This ensures the full image is shown
+            className="rounded-md"
+          />
+        </div>
+
+        {/* Description */}
+        <div className="w-full md:w-1/2">
+          <h2 className="text-xl font-semibold mb-2">Horse</h2>
+          <p className="text-gray-600">Elegance in every flick of name with grace under its reins where freedom runs wild, a majestic beauty in every stride.</p>
+        </div>
+      </div>
+
+      {/* Artwork 3 */}
+      <div className="flex items-center space-x-4 border-4 border-gray-300 p-4 rounded-md mb-6">
+        {/* Image */}
+        <div className="w-full h-auto relative">
+          <Image 
+            src="/snake.jpg" 
+            alt="Snake" 
+            layout="responsive" 
+            width={1200}  // Adjust according to image size
+            height={800}  // Adjust according to image size
+            objectFit="contain" // This ensures the full image is shown
+            className="rounded-md"
+          />
+        </div>
+
+        {/* Description */}
+        <div className="w-full md:w-1/2">
+          <h2 className="text-xl font-semibold mb-2">Snake</h2>
+          <p className="text-gray-600">Nature's sleek predator, they roam, The dance of scales, a whispered poem.</p>
+          
+        </div>
       </div>
     </div>
   );
