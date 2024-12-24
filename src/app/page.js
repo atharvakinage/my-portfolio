@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {Github, Mail, Phone, Palette} from 'lucide-react'
+import {Github, Mail, Phone, Palette, FileDown} from 'lucide-react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -26,6 +26,12 @@ export default function Home() {
             <span className="sr-only">Artworks</span>
           </Link>
         </div>
+        <br></br>
+        <br></br>
+        <a href="/RESUME_Atharva_Kinage.pdf" download className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+        <FileDown size={20} className="mr-2" />
+        Download Resume
+        </a>
       </div>
       <div className="md:w-1/3">
         <Image src="/guitarlol.png" alt="Your Profile Picture" width={400} height={400} className="rounded-full" />
