@@ -86,12 +86,12 @@ export default function About() {
             <h2 className="text-2xl font-semibold mb-6 text-blue-600">Experience</h2>
             <div className="space-y-6">
               <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-xl font-semibold">Placeholder</h3>
-                <p className="text-gray-600">Placeholder</p>
+                <h3 className="text-xl text-gray-600 font-semibold">Intern at CODMAV Research Center PESU</h3>
+                <p className="text-gray-600">2024</p>
                 <ul className="mt-2 space-y-1 text-gray-600">
-                  <li>• Placeholder</li>
-                  <li>• Placeholder</li>
-                  <li>• Placeholder</li>
+                  <li>• Worked on a ML project under a mentor - Predictive analytics for early lung cancer risk using Machine Learning</li>
+                  <li>• Conducted comparative analysis on multiple feature selection and reduction algorithms and ML models</li>
+                  <li>• My role was to research and identify the preprocessing steps in the dataset and implement feature reduction and also i was involved in selecting and implementing the ML models and visualizing the results through various graphs.</li>
                 </ul>
               </div>
             </div>
