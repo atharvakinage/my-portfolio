@@ -26,7 +26,7 @@ export default function Home() {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="relative w-66 h-66 md:w-80 md:h-80 mb-8 rounded-full overflow-hidden shadow-2xl"
+        className="relative w-66 h-66 md:w-80 md:h-80 mb-8 rounded-full overflow-hidden shadow-2xl hover:shadow-lg hover:scale-105 transition-all duration:300 ease-in-out"
       >
         <Image
           src="/guitarlol.png"

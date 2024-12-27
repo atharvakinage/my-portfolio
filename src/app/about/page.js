@@ -5,7 +5,7 @@ export default function About() {
       <div className="grid lg:grid-cols-2 gap-8 mb-12">
         <div className="space-y-8">
 
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+        <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold mb-6 text-blue-600">My Journey</h2>
             <p className="text-gray-600 mb-6">
               I'm a passionate Computer Science student with a keen interest in software engineering. 
@@ -15,14 +15,14 @@ export default function About() {
             <div className="space-y-6">
               <h3 className="text-xl text-gray-600 font-semibold border-b pb-2">EDUCATION</h3>
               <div className="space-y-6">
-                <div className="bg-gray-50 p-4 rounded-lg">
+              <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
                   <h4 className="text-lg font-medium text-blue-600">B.Tech</h4>
                   <div className="text-gray-700 font-medium">PES University</div>
                   <div className="text-gray-600">2022 - 2026</div>
                   <div className="text-gray-600">Computer Science Engineering (5th Sem)</div>
                   <div className="text-gray-600 font-medium">CGPA - 8.67</div>
                 </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
+                <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
                   <h4 className="text-lg font-medium text-blue-600">BGS NPS</h4>
                   <div className="text-gray-600">2013 - 2022</div>
                   <div className="text-gray-600">CBSE Class XII - 2022 (95.6%)</div>
@@ -32,7 +32,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+          <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold mb-6 text-blue-600">Skills</h2>
             <div className="grid grid-cols-2 gap-4">
               <div>
@@ -82,10 +82,10 @@ export default function About() {
         </div>
 
         <div className="space-y-8">
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+        <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold mb-6 text-blue-600">Experience</h2>
             <div className="space-y-6">
-              <div className="border-l-4 border-blue-500 pl-4">
+            <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
                 <h3 className="text-xl text-gray-600 font-semibold">Intern at CODMAV Research Center PESU</h3>
                 <p className="text-gray-600">2024</p>
                 <ul className="mt-2 space-y-1 text-gray-600">
@@ -97,7 +97,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+          <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold mb-6 text-blue-600">Co-curricular Activities</h2>
             <div className="space-y-4">
               <div>
@@ -126,7 +126,7 @@ export default function About() {
           </div>
 
           {/* Extracurricular Activities */}
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+          <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold mb-6 text-blue-600">Extracurricular Activities</h2>
             <div className="space-y-4">
               <div>
