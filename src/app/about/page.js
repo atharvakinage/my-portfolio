@@ -34,27 +34,49 @@ export default function About() {
 
           <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold mb-6 text-blue-600">Skills</h2>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-gray-700 font-semibold mb-2">Technical Skills</h3>
-                <ul className="space-y-2">
-                  <li className="text-gray-700 flex items-center">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                    Programming: Python, C, C++, R, Javascript
-                  </li>
-                  <li className="text-gray-700 flex items-center">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                    Frontend: HTML/CSS, React, Tailwind CSS
-                  </li>
-                  <li className="text-gray-700 flex items-center">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                    Database: MySQL, MongoDB
-                  </li>
-                  <li className="text-gray-700 flex items-center">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                    Familiar with MERN stack, Rust, OpenCV
-                  </li>
-                </ul>
+              <h3 className="text-gray-700 font-semibold mb-2">Technical Skills</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-blue-500 dark:text-blue-400 font-medium mb-2">Programming Languages</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {['Python', 'C', 'C++', 'R', 'JavaScript'].map((skill) => (
+                        <span key={skill} className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-blue-500 dark:text-blue-400 font-medium mb-2">Big Data Technologies</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {['Hadoop', 'Kafka', 'Spark'].map((skill) => (
+                        <span key={skill} className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-blue-500 dark:text-blue-400 font-medium mb-2">Frameworks & Tools</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        'Git',
+                        'MongoDB',
+                        'MySQL',
+                        'React',
+                        'Next.js',
+                        'Tailwind CSS',
+                        'HTML/CSS'
+                      ].map((skill) => (
+                        <span key={skill} className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
               <div>
                 <h3 className="text-gray-700 font-semibold mb-2">Soft Skills</h3>
