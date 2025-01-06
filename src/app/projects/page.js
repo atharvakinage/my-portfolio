@@ -8,7 +8,7 @@ const projects = [
     description: "YADTQ - Yet another distributed queue, it is a distributed task queue that coordinates between multiple workers in a highly distributed setup. This system uses kafka as a communication service and redis as the data store.",
     image: "/yadtq.png",
     technologies: ["Python", "Redis", "Kafka", "Shell"],
-    github: "https://github.com/Cloud-Computing-Big-Data/EC-Team-28-yadtq-yet-another-distributed-task-queue-",
+    github: "https://github.com/atharvakinage/YADTQ",
   },
   {
     title: "Simul8",
