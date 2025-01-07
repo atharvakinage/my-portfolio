@@ -45,7 +45,6 @@ export default function Home() {
       >
         <SocialLink href="https://github.com/atharvakinage" icon={<Github size={24} />} label="GitHub" />
         <SocialLink href="mailto:kinageatharv@gmail.com" icon={<Mail size={24} />} label="Email" />
-        <SocialLink href="tel:+919741862880" icon={<Phone size={24} />} label="Phone" />
         <SocialLink href="/artworks" icon={<Palette size={24} />} label="Artworks" isInternal = {true} />
       </motion.div>
 
