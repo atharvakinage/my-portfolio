@@ -18,6 +18,20 @@ const projects = [
     github: "https://github.com/atharvakinage/Simul8",
   },
   {
+    title: "my-fzf",
+    description: "A script for interactive file navigation and management using fzf fuzzy finder for powershell. Integrated the system commands for interactions, enabling directory navigation, file editing and deletion",
+    image: "/fzfnav.png",
+    technologies: ["powershell"],
+    github: "https://github.com/atharvakinage/my-fzf",
+  },
+  {
+    title: "Dynamic signature capture android app",
+    description: "An android application made in kotlin to capture dymanic signature metrics that includes velocity, accelaration, direction and pressure for forgery detection. Custom canvas collects real time signature data and stores images and csv files for metrics which is used for dataset preparation",
+    image: "/sigcapture.png",
+    technologies: ["kotlin", "Android studio"],
+    github: "https://github.com/atharvakinage/dynamic-signature-capture",
+  },
+  {
     title: "Interpreter for R programming language",
     description: "A basic interpreter for R programming language using Python's PLY (Python Lex-Yacc) library. This language supports constructs like variable assignment, loops (for,while,repeat), and conditional statements (if-else). The project is designed to tokenize and parse input source code and recognize the syntax of the language.",
     image: "/Rinterpreter.png",
