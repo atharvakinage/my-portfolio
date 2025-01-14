@@ -54,7 +54,7 @@ export default function Home() {
         transition={{ duration: 0.5, delay: 0.6 }}
       >
         <a 
-          href="/RESUME_AtharvaKinage.pdf"
+          href="/Resume_AtharvaKinage.pdf"
           download 
           className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
         >
