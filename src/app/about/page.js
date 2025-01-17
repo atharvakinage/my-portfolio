@@ -134,7 +134,7 @@ export default function About() {
                 <h3 className="text-lg text-gray-600 font-semibold">AIEP (ACM industrial experience program)</h3>
                 <p className="text-gray-600">2024</p>
                 <ul className="mt-2 text-gray-600">
-                  <li>• Explored aviation through the designand simulation of UAV</li>
+                  <li>• Explored aviation through the design and simulation of UAV</li>
                 </ul>
               </div>
               <div>
