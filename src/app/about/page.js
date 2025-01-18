@@ -19,8 +19,8 @@ export default function About() {
                   <h4 className="text-lg font-medium text-blue-600">B.Tech</h4>
                   <div className="text-gray-700 font-medium">PES University</div>
                   <div className="text-gray-600">2022 - 2026</div>
-                  <div className="text-gray-600">Computer Science Engineering (5th Sem)</div>
-                  <div className="text-gray-600 font-medium">CGPA - 8.67</div>
+                  <div className="text-gray-600">Computer Science Engineering (6th Sem)</div>
+                  <div className="text-gray-600 font-medium">CGPA - 8.91</div>
                 </div>
                 <div className="bg-white dark:bg-white rounded-xl shadow-md p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
                   <h4 className="text-lg font-medium text-blue-600">BGS NPS</h4>
